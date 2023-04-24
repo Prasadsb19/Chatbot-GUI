@@ -141,7 +141,7 @@ class ChatInterface(Frame):
                                     'KKWBOT is a chatbot for answering question regranding to KKWagh college,Nashik\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter')
 
     def about(self):
-        tkinter.messagebox.showinfo("KKWBOT Developers","Flare Global Soft")
+        tkinter.messagebox.showinfo("KKWBOT Developers","Prasad Bhasme")
 
     def send_message_insert(self, message):
         user_input = self.entry_field.get()
